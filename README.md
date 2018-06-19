@@ -5,6 +5,10 @@ Elixir CSV data format streaming using [send_chunked/2](https://hexdocs.pm/plug/
 * PostgreSQL 9.5 or newer
 * Elixir 1.5 or newer
 
+## How to start
+* cd `elixir_csv_stream`
+* `iex -S mix`
+
 ## Elixir program flow
 1. opens a connection to the database `foo`
 2. fills the table `source` with 1 million rows where:
